@@ -17,3 +17,8 @@ module.exports = {}
 
 module.exports.double = double;
 module.exports.triple = triple;
+// 2 functions are exported to test if each carries with it its own instance of variables.
+
+
+// adds a property after the function is exported.
+double.ref = 'later';
